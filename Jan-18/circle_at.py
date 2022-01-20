@@ -10,7 +10,6 @@ from turtle import *
 def circle_at(x, y, r):
     """ Draw a circle with the center at (x, y) and radius r"""
     penup()
-    pensize(3)
     goto(x, y - r)
     pendown()
     setheading(0)
