@@ -4,6 +4,14 @@
 def years_to_goal(principal, rate, goal):
     """ Return number of years to reach savings goal. """
     balance = principal
+    years = 0
+    while balance < goal:
+        interest = balance * rate
+        balance = balance + interest
+        years += 1
+    
+    return years
+        
     
 def main():
     years_1 = years_to_goal(1000, .01, 1000000)
