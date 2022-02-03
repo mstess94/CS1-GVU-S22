@@ -25,7 +25,7 @@ def main():
 main()
 
 
-Balance after  7 years is:  107.213535210701
+# Balance after  7 years is:  107.213535210701
 
 
 
